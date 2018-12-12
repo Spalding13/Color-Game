@@ -1,0 +1,67 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Times New Roman", Times;
+}
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin:1.66%;
+	border-radius: 15%;
+	transition: background 0.5s;
+	--webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+#container{
+ 	max-width: 600px;
+ 	margin: 20px auto;
+}
+h1 {
+	line-height: 1.1;
+	font-weight: normal;
+	text-align:center;
+	color:white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+#message{
+	text-color: black;
+}
+#stripe{
+	background: white;
+	text-align: center;
+	height: 30px;
+}
+.selected{
+background: steelblue;
+color:white;
+}
+
+#colorDisplay{
+	font-size:200%;
+}
+button{
+	border:none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	color:steelblue;
+	font-weight: 800;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	--webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	outline: none;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+button:hover{
+background: steelblue;
+color:white;
+}
